@@ -1,0 +1,113 @@
+/* * {
+    margin: 0%;
+    padding: 0%;
+} */
+
+html,
+body {
+    background-color: #F3F5F9 !important;
+}
+
+.uk-grid.register .register {
+    border: none;
+    border-bottom: 0.5px solid gray;
+}
+
+a.uk-button {
+    background-color: #0456AB;
+    border: none;
+    color: white;
+    font-size: 24px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.uk-card.uk-card-default.register {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.uk-flex .uk-width-2-5 img {
+    width: 40vw;
+    height: 35vh;
+}
+
+.uk-width-1-1.signup {
+    background-color: #0456AB;
+    color: white;
+    font-size: 20px;
+}
+
+nav.uk-navbar-container {
+    background-color: #FFFFFF !important;
+    /* height: 1vh; */
+}
+
+nav.uk-navbar-container .uk-navbar-left {
+    left: 5%;
+    position: relative;
+}
+
+nav.uk-navbar-container .uk-navbar-right {
+    right: 5%;
+    position: relative;
+}
+
+nav.uk-navbar-container .uk-navbar-right li a {
+    color: #4c4c4c !important;
+    font-size: 20px;
+}
+
+.uk-container .section-nav-horizontal .uk-navbar-container ul li {
+    /* padding-left: 30px; */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.uk-container .section-nav-horizontal .uk-navbar-container i.icon {
+    padding-right: 5px;
+}
+
+.uk-container .section-nav-horizontal .uk-navbar-container ul li.uk-active {
+    color: #4669AE !important;
+}
+
+.uk-container .uk-child-width-expand .uk-card p {
+    color: #a8a8a8;
+    font-size: 24px;
+}
+
+.uk-container .uk-child-width-expand .uk-card h3 {
+    color: #696969;
+    font-size: 48px;
+    font-weight: 500
+}
+
+.uk-container p {
+    font-size: 28px;
+    color: #a8a8a8;
+    font-weight: 400
+}
+
+.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card button,
+.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card p {
+    display: inline;
+}
+
+.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card button {
+    border-radius: 30px;
+    background-color: #0456ab;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    float: right;
+}
+
+.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card table th {
+    color: #191919;
+    font-size: 18px;
+}
+
+.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card table td {
+    font-size: 18px;
+}
