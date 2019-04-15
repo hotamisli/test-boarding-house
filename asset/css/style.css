@@ -111,3 +111,29 @@ nav.uk-navbar-container .uk-navbar-right li a {
 .leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card table td {
     font-size: 18px;
 }
+
+.leaves-section button.in {
+    float: right;
+    border-radius: 30px;
+    color: white;
+    background-color: #FA7e5c;
+    font-size: 18px;
+}
+
+.leaves-section button.in:hover {
+    color: #FA7e5c;
+    background-color: white;
+}
+
+.leaves-section button {
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: #034488;
+    font-size: 18px;
+}
+
+.leaves-section button:hover {
+    color: #034488;
+    background-color: white;
+}
