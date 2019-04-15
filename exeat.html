@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Homeboard</title>
+    <title>Exeat</title>
+    <link rel="shortcut icon" href="asset/images/favicon.png" type="image/x-icon">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="asset/css/style.css">
@@ -82,13 +84,47 @@
                         <div class="uk-modal-dialog">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <div class="uk-modal-header">
-                                <h2 class="uk-modal-title">Modal Title</h2>
+                                <h2 class="uk-modal-title">Sign Out Student</h2>
                             </div>
                             <div class="uk-modal-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                    laborum.
-                                </p>
+                                <form class="uk-form-horizontal uk-margin-large">
+                                    <div class="uk-margin">
+                                        <label class="uk-form-label" for="name">Name </label>
+                                        <div class="uk-form-controls">
+                                            <select class="uk-select" id="form-horizontal-select">
+                                                    <option><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">Rahma Nyari</option>
+                                                    <option><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">Nana Adwao</option>
+                                                    <option><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">Hatice Kabak</option>
+                                                    <option><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">Merve Kabak</option>
+                                                    <option><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">Guzide Dural</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <label class="uk-form-label" for="name">Reason For Exeat</label>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" id="Reason" name="reason for exeat" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <label class="uk-form-label" for="name">Permitted By</label>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" id="permit" name="Permitted By" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <label class="uk-form-label" for="Picked by">Picked By</label>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" id="picked_by" name="picked_by" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <label class="uk-form-label" for="date/time">Date/Time</label>
+                                        <div class="uk-form-controls">
+                                            <input class="uk-input" id="date/time" name="date/time" type="datetime">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                             <div class="uk-modal-footer uk-text-right">
                                 <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
@@ -103,9 +139,10 @@
                             <tr>
                                 <th></th>
                                 <th>Name</th>
-                                <th>Date/Time</th>
+                                <th>Reason for exeat</th>
                                 <th>Permitted By</th>
                                 <th>Picked By</th>
+                                <th>Date/Time</th>
                                 <th>Returned on</th>
                             </tr>
                         </thead>
@@ -116,6 +153,7 @@
                                 </td>
                                 <td>Table Data</td>
                                 <td>Table Data</td>
+                                <td>sick</td>
                                 <td>Table Data</td>
                                 <td>Table Data</td>
                                 <td><a href=""><button class="uk-button uk-button-default in" >Sign In</button></a>
@@ -127,6 +165,7 @@
                                 </td>
                                 <td>Table Data</td>
                                 <td>Table Data</td>
+                                <td>sick</td>
                                 <td>Table Data</td>
                                 <td>Table Data</td>
                                 <td> <a href=""><button class="uk-button uk-button-default in">Sign In</button></a>
@@ -138,6 +177,7 @@
                                 </td>
                                 <td>Table Data</td>
                                 <td>Table Data</td>
+                                <td>sick</td>
                                 <td>Table Data</td>
                                 <td>Table Data</td>
                                 <td> <a href=""><button class="uk-button uk-button-default in">Sign In</button></a>

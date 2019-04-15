@@ -130,8 +130,6 @@ nav.uk-navbar-container .uk-navbar-right li a {
     color: white;
     background-color: #034488;
     font-size: 18px;
-    /* float: right;
-    position: relative; */
 }
 
 .leaves-section button:hover {
@@ -145,7 +143,7 @@ nav.uk-navbar-container .uk-navbar-right li a {
     /* border-radius: 30px; */
 }
 
-.uk-modal-close {
+.uk-modal-close.att {
     color: #2AD4AE !important;
     border-color: #2AD4AE !important;
     background-color: white;
@@ -157,4 +155,5 @@ nav.uk-navbar-container .uk-navbar-right li a {
     background-color: #2AD4AE;
     color: white;
     font-size: 18px;
+    height: 50px;
 }
