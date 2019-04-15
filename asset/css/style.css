@@ -94,7 +94,7 @@ nav.uk-navbar-container .uk-navbar-right li a {
     display: inline;
 }
 
-.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card button {
+.leaves-section .uk-child-width-1-1 .uk-margin-remove .uk-card button.go {
     border-radius: 30px;
     background-color: #0456ab;
     color: white;
@@ -113,7 +113,6 @@ nav.uk-navbar-container .uk-navbar-right li a {
 }
 
 .leaves-section button.in {
-    float: right;
     border-radius: 30px;
     color: white;
     background-color: #FA7e5c;
@@ -131,9 +130,31 @@ nav.uk-navbar-container .uk-navbar-right li a {
     color: white;
     background-color: #034488;
     font-size: 18px;
+    /* float: right;
+    position: relative; */
 }
 
 .leaves-section button:hover {
     color: #034488;
     background-color: white;
+}
+
+.save-att {
+    color: white !important;
+    background-color: #2AD4AE;
+    /* border-radius: 30px; */
+}
+
+.uk-modal-close {
+    color: #2AD4AE !important;
+    border-color: #2AD4AE !important;
+    background-color: white;
+    /* border-radius: 30px; */
+}
+
+.uk-card button.attendance {
+    border-radius: 30px;
+    background-color: #2AD4AE;
+    color: white;
+    font-size: 18px;
 }

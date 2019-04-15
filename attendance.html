@@ -48,91 +48,134 @@
         </div>
     </div>
     <div class="uk-container uk-container-medium uk-margin-top">
-        <div class="uk-child-width-expand uk-grid-match" uk-grid>
+        <div class="uk-child-width-1-1" uk-grid>
             <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-padding-remove-top ">
-                    <img src="asset/images/total-students.png" alt="total students" width="150px">
-                    <h3>25</h3>
-                    <p>Total Students</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-padding-remove-top uk-padding-remove-bottom">
-                    <img src="asset/images/in.png" alt="signed in students" width="150px">
-                    <h3 style="padding-top:30px;">21</h3>
-                    <p class="">Signed In Students</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-padding-remove-top uk-padding-remove-bottom">
-                    <img src="asset/images/out.png" alt="signed out students" width="150px">
-                    <h3 style="padding-top:15px;">4</h3>
-                    <p>Signed Out Students</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="leaves-section uk-container uk-container-medium uk-margin-top">
-        <p>Recent Leaves</p>
-        <div class="uk-child-width-1-1 uk-grid-match" uk-grid>
-            <div class="uk-margin-remove">
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-small-top">
-                    <table class="uk-table">
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-overflow-auto">
+                    <ul class="uk-pagination">
+                        <li><a href="#"><span class="uk-margin-small-right" uk-pagination-previous></span> Previous</a></li>
+                        <li class="uk-margin-auto-left"><a href="#">Next <span class="uk-margin-small-left" uk-pagination-next></span></a></li>
+                    </ul>
+                    <table class="uk-table uk-table-divider">
                         <thead>
                             <tr>
-                                <th></th>
-                                <th>Name</th>
-                                <th>Date/Time</th>
-                                <th>Permitted By</th>
-                                <th>Picked By</th>
-                                <th>Returned on</th>
+                                <th>Date</th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
+                                <th><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Stephanie Boadi
+                                </th>
 
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>
-                                    <img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">
-                                </td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">
-                                </td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg">
-                                </td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
+                                <td>4/11/18</td>
+                                <td>Absent</td>
+                                <td>Present</td>
+                                <td>Present</td>
+                                <td>Late without Excuse</td>
+                                <td>Late without Excuse</td>
+                                <td>Present</td>
+                                <td>Absent</td>
+                                <td>Present</td>
+                                <td>Present</td>
                             </tr>
                         </tbody>
                     </table>
+                    <button class="uk-button uk-button-default uk-align-center attendance" href="#modal-sections" uk-toggle>New Attendance</button>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <div id="modal-sections" uk-modal>
+                            <div class="uk-modal-dialog">
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                <div class="uk-modal-header">
+                                    <h2 class="uk-modal-title">412/18</h2>
+                                </div>
+                                <div class="uk-modal-body">
+                                    <form class="uk-form-horizontal uk-margin-large">
+
+                                        <div class="uk-margin">
+                                            <label class="uk-form-label" for="name"><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Rahma Nyari
+                                               </label>
+                                            <div class="uk-form-controls">
+                                                <select class="uk-select" id="form-horizontal-select">
+                                                            <option>Present</option>
+                                                            <option>Absent</option>
+                                                            <option>Late with Excuse</option>
+                                                            <option>Late without Excuse</option>
+                                                            <option>Not Compulsory</option>
+                                                         </select>
+                                            </div>
+                                        </div>
+                                        <div class="uk-margin">
+                                            <label class="uk-form-label" for="name"><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Rahma Nyari
+                                                   </label>
+                                            <div class="uk-form-controls">
+                                                <select class="uk-select" id="form-horizontal-select">
+                                                                <option>Present</option>
+                                                                <option>Absent</option>
+                                                                <option>Late with Excuse</option>
+                                                                <option>Late without Excuse</option>
+                                                                <option>Not Compulsory</option>
+                                                             </select>
+                                            </div>
+                                        </div>
+                                        <div class="uk-margin">
+                                            <label class="uk-form-label" for="name"><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> Rahma Nyari
+                                                       </label>
+                                            <div class="uk-form-controls">
+                                                <select class="uk-select" id="form-horizontal-select">
+                                                                    <option>Present</option>
+                                                                    <option>Absent</option>
+                                                                    <option>Late with Excuse</option>
+                                                                    <option>Late without Excuse</option>
+                                                                    <option>Not Compulsory</option>
+                                                                 </select>
+                                            </div>
+                                        </div>
+                                        <div class="uk-margin">
+                                            <label class="uk-form-label" for="name"><img class="uk-border-circle" width="50px;" src="asset/images/avatar.jpg"> hatice Kabak
+                                               </label>
+                                            <div class="uk-form-controls">
+                                                <select class="uk-select" id="form-horizontal-select">
+                                                            <option>Present</option>
+                                                            <option>Absent</option>
+                                                            <option>Late with Excuse</option>
+                                                            <option>Late without Excuse</option>
+                                                            <option>Not Compulsory</option>
+                                                         </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="uk-modal-footer uk-text-right">
+                                    <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                    <button class="uk-button save-att" type="button">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
+
         </div>
-    </div>
 
-
-
-
-    <script src="asset/js/uikit.min.js "></script>
-    <script src="asset/js/uikit-icons.min.js "></script>
+        <script src="asset/js/uikit.min.js "></script>
+        <script src="asset/js/uikit-icons.min.js "></script>
 </body>
 
 </html>
