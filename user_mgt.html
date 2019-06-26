@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>User Management</title>
+    <link rel="shortcut icon" href="asset/images/favicon.png" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/uikit.min.css">
+</head>
+
+<body>
+    <div class="section-nav-horizontal">
+        <nav class="uk-navbar-container uk-box-shadow-small" uk-navbar="mode: click">
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="#"><img src="asset/images/logo2.png" alt="galaxy-logo" width="200px"></a>
+            </div>
+
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-nav">
+                    <li>
+                        <a href="# ">Saliha H.</a>
+                        <div class="uk-navbar-dropdown ">
+                            <ul class="uk-nav uk-navbar-dropdown-nav ">
+                                <li class="uk-navbar-item"><a href="login.html">Log out</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+    <div class="uk-container uk-container-medium">
+        <div class="section-nav-horizontal">
+            <nav uk-sticky="sel-target: cls-active: uk-navbar-sticky" class="uk-navbar-container uk-box-shadow-small" uk-navbar="mode: click">
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav uk-tab">
+                        <li><a href="dashboard.html"><i style="font-size: 20px;" class="icon fas fa-tachometer-alt"></i> Dashboard </a></li>
+                        <li  class="uk-active"><a href="user_mgt.html"><i style="font-size: 20px;" class="fas fa-user-friends icon"></i> User Management </a></li>
+                        <li><a href="exeat.html"><i style="font-size: 20px;" class="fas fa-building"></i><i class="fas fa-walking icon "></i> Exeat </a></li>
+                        <li><a href="attendance.html"><i style="font-size: 20px;" class="fas fa-clipboard-check icon"></i> Attendance </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="uk-container uk-container-medium uk-margin-top">
+        <div class="uk-child-width-expand uk-grid-match" uk-grid>
+            <div>
+              
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-padding-remove-top user">
+                      <a href="register_parent.html"> <p>Register Parent</p> 
+                    <img src="/asset/images/parent.png" alt="parent" width="250px;">
+                    </a> 
+                   
+                   
+                </div>
+            </div>
+            <div>
+              
+                <div class="user-std uk-card uk-card-default uk-card-hover uk-card-body uk-text-center uk-padding-remove-top uk-padding-remove-bottom">
+                      <a href="register_student.html"><p>Register Student</p>
+                    <img src="./asset/images/student.png" alt="student" width="250px;">
+                    </a>  
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="asset/js/uikit.min.js "></script>
+    <script src="asset/js/uikit-icons.min.js "></script>
+</body>
+
+</html>

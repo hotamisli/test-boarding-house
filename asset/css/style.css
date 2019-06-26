@@ -157,3 +157,21 @@ nav.uk-navbar-container .uk-navbar-right li a {
     font-size: 18px;
     height: 50px;
 }
+
+.uk-container .user{
+    border-left:5px solid #034488;
+    
+}
+.uk-container .user-std{
+    border-right: 5px solid #034488;
+}
+
+.uk-container-small .profile{
+    border-left: 5px solid #034488;
+}
+
+.uk-container #normal{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
