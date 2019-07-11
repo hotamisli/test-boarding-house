@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Parent Profile</title>
+    <link rel="shortcut icon" href="asset/images/favicon.png" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/uikit.min.css">
+</head>
+
+<body>
+    <div class="section-nav-horizontal">
+        <nav class="uk-navbar-container uk-box-shadow-small" uk-navbar="mode: click">
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="#"><img src="asset/images/logo2.png" alt="galaxy-logo" width="200px"></a>
+            </div>
+
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-nav">
+                    <li>
+                        <a href="# ">Taylor Winner</a>
+                        <div class="uk-navbar-dropdown ">
+                            <ul class="uk-nav uk-navbar-dropdown-nav ">
+                                <li class="uk-navbar-item"><a href="login.html">Log out</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+    
+
+    <div class="uk-container uk-container-small uk-margin-top">
+
+        <div class="uk-clearfix uk-child-width-1-1 parent-edit" uk-grid>
+
+                <form class="uk-grid" uk-grid>
+                        <div class="uk-width-1-2@l uk-width-1-1@s">
+                            Name
+                            <input type="text" class="uk-input register" placeholder="Taylor" required>
+                        </div>
+                        <div class="uk-width-1-2@l uk-width-1-1@s">
+                            Surname
+                            <input type="text" class="uk-input register" placeholder="Winner" required>
+                        </div>
+                       
+                        <div class="uk-width-1-2@l uk-width-1-1@s">
+                            Email
+                            <input type="email" class="uk-input register" placeholder="twinner@gmail.com" required>
+                        </div>
+                        <div class="uk-width-1-2@l uk-width-1-1@s">
+                            Password
+                                <input type="password" class="uk-input register" placeholder="*******" required>
+                            </div>
+                        <div class="uk-width-1-1@l uk-width-1-1@s">
+                            Phone
+                            <input type="tel" class="uk-input register" placeholder="(233) 5559087" required>
+                        </div>
+                       
+                        <div class="uk-width-1-1">
+                            Address
+                            <textarea class="uk-textarea register" name="address" cols="10" rows="3">Kofi Annan Avenue no:33</textarea>
+                        </div>
+                        <div class="t">
+                                <button class="uk-button save_changes" type="button">Save Changes</button>
+                       <button class="uk-button delete" type="button">Delete</button>
+                            </div>
+                       
+                    </form>
+          
+    </div>
+
+   
+
+
+    <script src="asset/js/uikit.min.js "></script>
+    <script src="asset/js/uikit-icons.min.js "></script>
+</body>
+
+</html>

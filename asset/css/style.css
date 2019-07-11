@@ -175,3 +175,24 @@ nav.uk-navbar-container .uk-navbar-right li a {
     font-weight: 400;
     font-size: 20px;
 }
+ .uk-button.save_changes{
+    border-radius: 30px;
+    background-color:#034488;
+    color: white;
+    font-size: 18px;
+    left: 530px;
+    position: relative;
+}
+.parent-edit form input::placeholder{
+    color: black;
+}
+
+
+.uk-button.delete{
+    border-radius: 30px;
+    background-color: #ed2939;
+    color: white;
+    font-size: 18px;
+    left: 550px;
+    position: relative;
+}
